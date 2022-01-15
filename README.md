@@ -1,6 +1,6 @@
 # Slangekongernes Grav
 
-![Troldegrav](images/goblin_pit.jpg)
+![Troldegrav](src/images/goblin_pit.jpg)
 
 Version 4.0  
 Den konsekvent inkonsekvente opdatering
