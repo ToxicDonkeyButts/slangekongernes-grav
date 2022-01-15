@@ -1,0 +1,6 @@
+[book]
+authors = ["Skerples", "Lasse Borly"]
+language = "da"
+multilingual = false
+src = "src"
+title = "Slangekongernes Grav"
