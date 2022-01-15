@@ -25,7 +25,7 @@ Tilskyndelse fra mange, men især fra
 
 Bliv ved med at være sære.
 
-## LICENSE
+## Licens
 
 Værket er licenseret under [Creative Commons CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/3.0/).
 
