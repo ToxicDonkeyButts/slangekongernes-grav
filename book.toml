@@ -4,3 +4,7 @@ language = "da"
 multilingual = false
 src = "src"
 title = "Slangekongernes Grav"
+
+[output.html]
+# additional-css = ["custom.css", "custom2.css"]
+additional-js = ["src/scripts/lightbox.js"]
