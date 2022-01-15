@@ -32,3 +32,7 @@ Værket er licenseret under [Creative Commons CC BY-NC-SA](https://creativecommo
 Du kan dele det gratis, tilpasse det til dit eget system, redigere det, udskrive det og  
 lægge det i den lokale spilforretninger. Du kan bare ikke sælge det for penge, og du  
 skal kreditere Skerples et eller andet sted. Det samme gælder kunsten.
+
+## Træd varsomt!
+
+Oversættelsen er stadig under udvikling.
