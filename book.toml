@@ -6,5 +6,5 @@ src = "src"
 title = "Slangekongernes Grav"
 
 [output.html]
-# additional-css = ["custom.css", "custom2.css"]
+additional-css = ["src/styles/lightbox.css"]
 additional-js = ["src/scripts/lightbox.js"]
