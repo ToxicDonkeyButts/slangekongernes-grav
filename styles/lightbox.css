@@ -1,0 +1,4 @@
+.medium-zoom-overlay, .medium-zoom-image {
+  /* mdbook #menubar has a z-index of 101  */
+  z-index: 102;
+}
