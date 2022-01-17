@@ -6,5 +6,10 @@ src = "src"
 title = "Slangekongernes Grav"
 
 [output.html]
-additional-css = ["src/styles/lightbox.css"]
-additional-js = ["src/scripts/lightbox.js"]
+additional-css = ["src/assets/styles/lightbox.css"]
+additional-js = ["src/assets/scripts/lightbox.js"]
+no-section-label = true
+
+[preprocessor.toc]
+command = "mdbook-toc"
+renderer = ["html"]

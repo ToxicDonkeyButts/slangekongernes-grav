@@ -1,1 +1,1 @@
-![Kort over hele grotten](images/map.jpg)
+![Kort over hele grotten](/assets/images/map.jpg)

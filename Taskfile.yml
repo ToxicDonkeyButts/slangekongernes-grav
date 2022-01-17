@@ -3,7 +3,7 @@ version: '3'
 tasks:
   default:
     cmds:
-      - mdbook serve -n 0.0.0.0
+      - bin/mdbook serve -n 0.0.0.0
   build:
     cmds:
-      - mdbook build
+      - bin/mdbook build
