@@ -1,38 +1,41 @@
-# Slangekongernes Grav
+# Website
 
-![Troldegrav](src/images/goblin_pit.jpg)
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-Version 4.0  
-Den konsekvent inkonsekvente opdatering
+### Installation
 
-Skrevet af **SKERPLES**  
-[(coinsandscrolls.blogspot.com)](coinsandscrolls.blogspot.com)
+```
+$ yarn
+```
 
-Kunst af **SCRAP PRINCESS**  
-[(monstermanualsewnfrompants.blogspot.com)](monstermanualsewnfrompants.blogspot.com)
+### Local Development
 
-Kort af **JANON**
+```
+$ yarn start
+```
 
-Opsætning af **DAVID SHUGARS**  
-[(the3d6.com)](the3d6.com)
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-Spiltestet af et forbløffende antal folk. I ved, hvem i er.  
-Hvis du har spillet denne fangekælder og sendt mig noter, har jeg læst dem. Tusind tak.
+### Build
 
-Tilskyndelse fra mange, men især fra  
-**ARNOLD K.**  
-[(goblinpunch.blogspot.com)](goblinpunch.blogspot.com).
+```
+$ yarn build
+```
 
-Bliv ved med at være sære.
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-## Licens
+### Deployment
 
-Værket er licenseret under [Creative Commons CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/3.0/).
+Using SSH:
 
-Du kan dele det gratis, tilpasse det til dit eget system, redigere det, udskrive det og  
-lægge det i den lokale spilforretninger. Du kan bare ikke sælge det for penge, og du  
-skal kreditere Skerples et eller andet sted. Det samme gælder kunsten.
+```
+$ USE_SSH=true yarn deploy
+```
 
-## Træd varsomt!
+Not using SSH:
 
-Oversættelsen er stadig under udvikling.
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
