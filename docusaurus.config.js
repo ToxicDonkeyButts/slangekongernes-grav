@@ -17,8 +17,8 @@ const config = {
   projectName: 'slangekongernes-grav',
 
   i18n: {
-    defaultLocale: 'da',
-    locales: ['da'],
+    defaultLocale: 'en',
+    locales: ['en', 'da'],
   },
 
   plugins: [

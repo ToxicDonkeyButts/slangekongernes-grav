@@ -15,8 +15,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/bog/introduktion">
-            Læs eventyret
+            to="/book/intoduction">
+            Get going!
           </Link>
         </div>
       </div>
@@ -28,7 +28,7 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title='Omslag'
+      title='Cover'
       description={siteConfig.tagline}>
       <HomepageHeader />
     </Layout>
