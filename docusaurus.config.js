@@ -71,14 +71,7 @@ const config = {
           alt: "A simple snake",
           src: "img/logo.svg",
         },
-        items: [
-          {
-            type: "doc",
-            docId: "introduction",
-            position: "right",
-            label: "Module",
-          },
-        ],
+        items: [],
       },
       prism: {
         theme: lightCodeTheme,
