@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Slangekongernes Grav',
-  tagline: 'Et lærende begynder dyb',
-  url: 'https://slangekongernes-grav.æventyr.dk',
+  title: 'Tomb of the Serpent Kings',
+  tagline: 'A "learning" module in an old school style.',
+  url: 'https://www.tomboftheserpentkings.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.svg',
   organizationName: 'toxicdonkeybutts',
-  projectName: 'slangekongernes-grav',
+  projectName: 'tomboftheserpentkings',
 
   i18n: {
     defaultLocale: 'en',
@@ -28,17 +28,17 @@ const config = {
       {
         indexBlog: false,
         hashed: true,
-        language: ["da"],
-        translations: {
-          "search_placeholder": "Søg",
-          "see_all_results": "Vis alle resultater",
-          "no_results": "Ingen resultater fundet.",
-          "search_results_for": "Søgeresultater for \"{{ keyword }}\"",
-          "search_the_documentation": "Søg i dokumentationen",
-          "count_documents_found": "Et dokument fundet",
-          "count_documents_found_plural": "{{ count }} dokumenter fundet",
-          "no_documents_were_found": "Ingen dokumenter fundet"
-        }
+        language: ["en", "da"],
+        // translations: {
+        //   "search_placeholder": "Søg",
+        //   "see_all_results": "Vis alle resultater",
+        //   "no_results": "Ingen resultater fundet.",
+        //   "search_results_for": "Søgeresultater for \"{{ keyword }}\"",
+        //   "search_the_documentation": "Søg i dokumentationen",
+        //   "count_documents_found": "Et dokument fundet",
+        //   "count_documents_found_plural": "{{ count }} dokumenter fundet",
+        //   "no_documents_were_found": "Ingen dokumenter fundet"
+        // }
       },
     ],
   ],

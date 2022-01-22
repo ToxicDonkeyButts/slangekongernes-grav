@@ -1,3 +1,0 @@
-# Kort
-
-![Kort](map.jpg)
