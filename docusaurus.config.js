@@ -1,34 +1,35 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Tomb of the Serpent Kings',
+  title: "Tomb of the Serpent Kings",
   tagline: 'A "learning" module in an old school style.',
-  url: 'https://www.tomboftheserpentkings.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/logo.svg',
-  organizationName: 'toxicdonkeybutts',
-  projectName: 'tomboftheserpentkings',
+  url: "https://www.tomboftheserpentkings.com",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/logo.svg",
+  organizationName: "toxicdonkeybutts",
+  projectName: "tomboftheserpentkings",
 
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'da'],
+    defaultLocale: "en",
+    locales: ["en", "da"],
   },
 
   plugins: [
-    'plugin-image-zoom',
+    "plugin-image-zoom",
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
         indexBlog: false,
         hashed: true,
         language: ["en", "da"],
+        docsRouteBasePath: "book",
         // translations: {
         //   "search_placeholder": "Søg",
         //   "see_all_results": "Vis alle resultater",
@@ -45,16 +46,16 @@ const config = {
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           sidebarCollapsed: true,
-          routeBasePath: 'book'
+          routeBasePath: "book",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -65,17 +66,17 @@ const config = {
     ({
       hideableSidebar: true,
       navbar: {
-        title: 'Tomb of the Serpent Kings',
+        title: "Tomb of the Serpent Kings",
         logo: {
-          alt: 'A simple snake',
-          src: 'img/logo.svg',
+          alt: "A simple snake",
+          src: "img/logo.svg",
         },
         items: [
           {
-            type: 'doc',
-            docId: 'introduction',
-            position: 'right',
-            label: 'Module',
+            type: "doc",
+            docId: "introduction",
+            position: "right",
+            label: "Module",
           },
         ],
       },
