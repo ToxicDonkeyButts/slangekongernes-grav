@@ -1,0 +1,10 @@
+{
+  "title": {
+    "message": "Slangekongernes Grav",
+    "description": "The title in the navbar"
+  },
+  "item.label.Module": {
+    "message": "Modul",
+    "description": "Navbar item with label Module"
+  }
+}

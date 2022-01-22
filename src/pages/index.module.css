@@ -21,3 +21,21 @@
   align-items: center;
   justify-content: center;
 }
+
+.center {
+  display: grid;
+  place-content: center;
+}
+
+.logoContainer {
+  display: flex;
+  place-content: center;
+}
+
+html[data-theme='dark'] .purple-text {
+  color: plum;
+}
+
+.textCenter {
+  text-align: center;
+}
