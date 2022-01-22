@@ -51,7 +51,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           sidebarCollapsed: false,
-          routeBasePath: 'bog'
+          routeBasePath: 'book'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -65,17 +65,17 @@ const config = {
     ({
       hideableSidebar: true,
       navbar: {
-        title: 'Slangekongernes Grav',
+        title: 'Tomb of the Serpent Kings',
         logo: {
-          alt: 'En simpel slange',
+          alt: 'A simple snake',
           src: 'img/logo.svg',
         },
         items: [
           {
             type: 'doc',
-            docId: 'introduktion',
+            docId: 'introduction',
             position: 'right',
-            label: 'Eventyret',
+            label: 'Module',
           },
         ],
       },
